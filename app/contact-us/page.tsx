@@ -6,12 +6,7 @@ import Footer from "@/components/components/Footer";
 import Hero from "@/components/components/Hero";
 import MapSection from "@/components/components/MapSection";
 import Navbar from "@/components/components/Navbar";
-import PopularPackages from "@/components/components/PopularPackages";
-import StoriesFromTrail from "@/components/components/StoriesFromTrail";
-import Sustainability from "@/components/components/Sustainability";
-import TrustedPartners from "@/components/components/TrustedPartners";
-import UpcomingDepartures from "@/components/components/UpcomingDepartures";
-import Image from "next/image";
+
 
 export default function ContactUs() {
   return (
