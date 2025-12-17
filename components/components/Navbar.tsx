@@ -1,11 +1,12 @@
 import React from "react";
 
+
 const Navbar = () => {
   return (
     <nav className="sticky top-0 left-0 right-0 z-50 w-full px-4 py-6 md:px-8 lg:px-16 pointer-events-none">
       <div className="mx-auto flex max-w-7xl items-center justify-between rounded-full bg-background-dark/80 backdrop-blur-md border border-white/10 px-6 py-3 shadow-lg shadow-black/10 pointer-events-auto">
         <div className="flex items-center gap-3">
-          <a className="flex items-center gap-3 group" href="#">
+          <a className="flex items-center gap-3 group" href="/">
             <div className="h-10 w-10 flex items-center justify-center bg-white/5 rounded-full border border-white/10 group-hover:border-primary/50 transition-colors">
               <img
                 alt="Nepal Visuals Logo"
@@ -40,6 +41,7 @@ const Navbar = () => {
             <span className="material-symbols-outlined">menu</span>
           </button>
         </div>
+      
       </div>
     </nav>
   );
