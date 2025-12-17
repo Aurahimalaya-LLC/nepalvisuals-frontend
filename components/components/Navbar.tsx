@@ -21,13 +21,13 @@ const Navbar = () => {
         </div>
         
         <div className="hidden md:flex items-center gap-6 xl:gap-8 flex-1 justify-end mr-8">
-          <a className="text-sm font-medium text-white hover:text-primary transition-colors" href="#">
-            Services
+          <a className="text-sm font-medium text-white hover:text-primary transition-colors" href="/manaslu-region">
+            Manaslu Region
           </a>
-          <a className="text-sm font-medium text-white hover:text-primary transition-colors" href="#">
-            Destinations
+          <a className="text-sm font-medium text-white hover:text-primary transition-colors" href="/manaslu-region/upper-mustang">
+            Upper Mustang
           </a>
-          <a className="text-sm font-medium text-white hover:text-primary transition-colors" href="#">
+          <a className="text-sm font-medium text-white hover:text-primary transition-colors" href="/about-us">
             About
           </a>
         </div>
