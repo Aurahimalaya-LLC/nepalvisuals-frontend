@@ -1,6 +1,10 @@
+"use client";
+
+import { useRouter } from "next/navigation";
 import React from "react";
 
 const Activities = () => {
+  const router = useRouter();
   const activities = [
     {
       name: "Everest Region",
@@ -98,7 +102,7 @@ const Activities = () => {
       {/* Scrollable Activities */}
       <div className="flex overflow-x-auto gap-6 pb-6 no-scrollbar snap-x snap-mandatory">
         {activities.map((activity, index) => (
-          <div key={index} className="min-w-[280px] md:min-w-[320px] snap-center group cursor-pointer">
+          <div key={index} className="min-w-[280px] md:min-w-[320px] snap-center group cursor-pointer" onClick={()=>router.push(`/${activity.name.toLowerCase().replace(/ /g, "-")}`)}>
             <div className="relative h-[400px] w-full rounded-[2rem] overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent z-10 transition-opacity duration-300 group-hover:opacity-90"></div>
               <img

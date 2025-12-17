@@ -1,6 +1,8 @@
 
 import Activities from "@/components/components/Activities";
+import FAQSection from "@/components/components/FAQSection";
 import FeaturedDestinations from "@/components/components/FeaturedDestinations";
+import Newsletter from "@/components/components/NewsLetter";
 import PopularPackages from "@/components/components/PopularPackages";
 import StoriesFromTrail from "@/components/components/StoriesFromTrail";
 import Sustainability from "@/components/components/Sustainability";
@@ -19,6 +21,8 @@ export default function Home() {
         <Sustainability />
         <StoriesFromTrail />
         <TrustedPartners />
+        <FAQSection />
+        <Newsletter />
       </main>
     </div>
   );
