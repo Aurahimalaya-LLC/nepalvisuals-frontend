@@ -21,7 +21,7 @@ export default function Regions() {
       <main className="container mx-auto px-4 md:px-8 lg:px-16 max-w-7xl pt-16 pb-32">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Main Content */}
-          <div className="lg:col-span-2 space-y-24">
+          <div className="lg:col-span-2 space-y-15 md:space-y-24">
             <Overview />
             <RouteMap />
             <Itinerary />

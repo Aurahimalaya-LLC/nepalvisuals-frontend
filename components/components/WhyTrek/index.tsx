@@ -12,7 +12,7 @@ const IMG_MUSTANG = "https://lh3.googleusercontent.com/aida-public/AB6AXuB5MvfLh
 const WhyTrek = () => {
      const HERO_BG = IMG_EVEREST;
   return (
-    <section className="py-20">
+    <section className="py-10 md:py-20">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         {/* Text Content */}
         <div className="space-y-8">

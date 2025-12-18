@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
         }}
       ></div>
       <div className="absolute inset-0 z-0 bg-gradient-to-t from-[#051324] via-[#051324]/90 to-[#051324]/40"></div>
-      <div className="relative z-10 container mx-auto px-4 pb-12 max-w-7xl">
+      <div className="relative z-10 container mx-auto px-4 pb-0 max-w-7xl">
         <div className="flex flex-col gap-4">
           <a
             className="inline-flex items-center gap-2 text-text-secondary hover:text-white transition-colors text-sm font-medium w-fit"
@@ -21,7 +21,7 @@ export const Header: React.FC = () => {
             </span>
             Back to Trip Details
           </a>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight ">
             Checkout &{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-white">
               Payment

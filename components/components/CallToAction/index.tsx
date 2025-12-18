@@ -1,10 +1,9 @@
-import React from 'react';
-import { IconBase } from 'react-icons';
-
+import React from "react";
+import { IconBase } from "react-icons";
 
 const CallToAction = () => {
   return (
-    <section className="py-20">
+    <section className="md:py-20">
       <div className="bg-gradient-to-r from-surface-dark to-surface-darker rounded-[2.5rem] p-8 md:p-12 border border-white/5 relative overflow-hidden shadow-2xl">
         {/* Decorative Blurs */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
@@ -12,18 +11,27 @@ const CallToAction = () => {
 
         <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-10">
           <div className="max-w-xl">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Not sure where to start?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              Not sure where to start?
+            </h2>
             <p className="text-text-secondary text-lg leading-relaxed mb-8">
-              Our expert team of Sherpas and travel consultants can help you find the perfect region and itinerary based on your experience, time, and budget.
+              Our expert team of Sherpas and travel consultants can help you
+              find the perfect region and itinerary based on your experience,
+              time, and budget.
             </p>
-            
+
             <div className="flex flex-wrap gap-4 md:gap-6">
-              {['Custom Itineraries', 'Expert Advice', '24/7 Support'].map((item) => (
-                <div key={item} className="flex items-center gap-2 text-white font-medium">
-                  <IconBase name="check_circle" className="text-primary" />
-                  <span>{item}</span>
-                </div>
-              ))}
+              {["Custom Itineraries", "Expert Advice", "24/7 Support"].map(
+                (item) => (
+                  <div
+                    key={item}
+                    className="flex items-center gap-2 text-white font-medium"
+                  >
+                    <IconBase name="check_circle" className="text-primary" />
+                    <span>{item}</span>
+                  </div>
+                )
+              )}
             </div>
           </div>
 
