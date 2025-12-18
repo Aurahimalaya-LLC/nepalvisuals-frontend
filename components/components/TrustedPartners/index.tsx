@@ -10,7 +10,7 @@ const partners = [
 
 const TrustedPartners = () => {
   return (
-    <section className="py-16 bg-surface">
+    <section className="py-7 md:py-16 bg-surface">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight tracking-tight">
           Our Trusted <br />

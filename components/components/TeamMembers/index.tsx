@@ -38,7 +38,7 @@ const TeamMembers: React.FC = () => {
 
 
   return (
-   <section className="mb-32 relative">
+   <section className="mb-10 md:mb-32 relative">
       <div className="text-center mb-16">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 mb-6">
           <span className="w-1.5 h-1.5 rounded-full bg-primary shadow-[0_0_8px_rgba(217,30,70,0.8)]"></span>

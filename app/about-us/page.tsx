@@ -14,7 +14,7 @@ export default function AboutUs() {
       <Navbar />
       <Hero />
 
-      <main className="flex-grow pt-24 pb-16 px-4 md:px-8 lg:px-16 container mx-auto max-w-7xl">
+      <main className="flex-grow pt-10 md:pt-24 pb-16 px-4 md:px-8 lg:px-16 container mx-auto max-w-7xl">
         <RealStories />
         <MissionValues />
         <TeamMembers />

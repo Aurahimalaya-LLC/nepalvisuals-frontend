@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactSection = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 mb-32 bg-red ">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 mb-10 md:mb-32 bg-red ">
       {/* Left Column: Contact Info */}
       <div className="flex flex-col justify-center">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 w-fit mb-6">
