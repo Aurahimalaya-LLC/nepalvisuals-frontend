@@ -37,7 +37,7 @@ const PopularPackages = () => {
   ];
 
   return (
-    <section className="mb-24">
+    <section className="mb-10 md:mb-24">
       <div className="flex items-center justify-between mb-8 px-2">
         <h2 className="text-3xl font-bold text-white tracking-tight">Popular Packages</h2>
         <a className="text-sm font-medium text-primary hover:text-primary-dark transition-colors flex items-center gap-1" href="#">

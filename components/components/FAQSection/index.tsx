@@ -41,7 +41,7 @@ const faqs: FAQItem[] = [
 
 const FAQSection = () => {
   return (
-    <section className="mb-32">
+    <section className="mb-10 md:mb-32">
       <div className="text-center mb-16">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 w-fit mb-6">
           <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
@@ -65,9 +65,9 @@ const FAQSection = () => {
         {faqs.map((faq, index) => (
           <details
             key={index}
-            className="group bg-surface-dark border border-white/10 rounded-[2rem] p-8 cursor-pointer hover:border-primary/30 transition-all duration-300 shadow-lg shadow-black/20"
+            className="group bg-surface-dark border border-white/10 rounded-[2rem] p-4 md:p-8 cursor-pointer hover:border-primary/30 transition-all duration-300 shadow-lg shadow-black/20"
           >
-            <summary className="flex justify-between items-start gap-4 font-bold text-white text-lg leading-tight list-none">
+            <summary className="flex justify-between items-start gap-4 font-bold text-white text-sm md:text-lg leading-tight list-none">
               <span className="flex-1">{faq.question}</span>
               <span className="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-primary text-2xl flex-shrink-0 mt-0.5">
                 expand_more

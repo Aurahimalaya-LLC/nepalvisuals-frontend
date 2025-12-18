@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#030e1c] pt-20 pb-10 border-t border-white/5">
+    <footer className="bg-[#030e1c] pt-10 md:pt-20 pb-10 border-t border-white/5">
       <div className="container mx-auto px-4 md:px-8 lg:px-16 max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 lg:col-span-1">
@@ -66,7 +66,10 @@ const Footer = () => {
             <h4 className="text-white font-bold mb-6">Company</h4>
             <ul className="space-y-4">
               <li>
-                <a href="about-us" className="text-text-secondary hover:text-primary text-sm transition-colors">
+                <a
+                  href="about-us"
+                  className="text-text-secondary hover:text-primary text-sm transition-colors"
+                >
                   About Us
                 </a>
               </li>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const AvailableDates = () => {
   return (
-    <section id="available-dates" className="scroll-mt-32">
+    <section id="available-dates" className="scroll-mt-32 mt-8">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-3xl font-bold text-white">Available Dates</h2>
         <div className="flex items-center gap-2">

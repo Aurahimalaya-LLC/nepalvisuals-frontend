@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconBase } from 'react-icons';
 
-const Hero: React.FC = () => {
+const RegionHero: React.FC = () => {
     const IMG_EVEREST = "https://lh3.googleusercontent.com/aida-public/AB6AXuDRhAgmyafMtZInsKcZjC6PERny9fQkTYXnQc2xe3Dn2hSTQ2D2bEPyiLHkfuqDOIamvdyHiV6lOBJgYm_mzEkiQeGcxj6XcjWqapph7IcKty8Mcbs7CdDGengbgwALm5rAVVQmydirCKo5JLlaeh-L3z0AJYecOSmxkI8TpR7pMITU12XLou8iXgEwQe7_3NbQK8rZDzw39TV_j5JnhmpBQ55T2U0LJGQROBZEKe8IxNVO4-xOcOfSMr99VgNtWGMAriy0J_zOV2il";
  const HERO_BG = IMG_EVEREST;
   return (
@@ -46,4 +46,4 @@ const Hero: React.FC = () => {
   );
 };
 
-export default Hero;
+export default RegionHero;
