@@ -1,15 +1,15 @@
 "use client";
 
-import { Addons } from "@/components/components/Addons";
-import { BillingAddress } from "@/components/components/BillingAddress";
-import { ContactInfo } from "@/components/components/ContactInfo";
-import { Header } from "@/components/components/Header";
-import Hero from "@/components/components/Hero";
-import Navbar from "@/components/components/Navbar";
-import { OrderSummary } from "@/components/components/OrderSummary";
-import { PaymentMethod } from "@/components/components/PaymentMethod";
-import { Stepper } from "@/components/components/Stepper";
-import { TravelerDetails } from "@/components/components/TravelerDetails";
+import { Addons } from "@/components/Addons";
+import { BillingAddress } from "@/components/BillingAddress";
+import { ContactInfo } from "@/components/ContactInfo";
+import { Header } from "@/components/Header";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
+import { OrderSummary } from "@/components/OrderSummary";
+import { PaymentMethod } from "@/components/PaymentMethod";
+import { Stepper } from "@/components/Stepper";
+import { TravelerDetails } from "@/components/TravelerDetails";
 import React, { useState, useMemo } from "react";
 
 const INITIAL_TRAVELER: Traveler = {

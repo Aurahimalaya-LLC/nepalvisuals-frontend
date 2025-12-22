@@ -1,11 +1,11 @@
-import Activities from "@/components/components/Activities";
-import ContactSection from "@/components/components/ContactSection";
-import FAQSection from "@/components/components/FAQSection";
-import FeaturedDestinations from "@/components/components/FeaturedDestinations";
-import Footer from "@/components/components/Footer";
-import Hero from "@/components/components/Hero";
-import MapSection from "@/components/components/MapSection";
-import Navbar from "@/components/components/Navbar";
+import Activities from "@/components/Activities";
+import ContactSection from "@/components/ContactSection";
+import FAQSection from "@/components/FAQSection";
+import FeaturedDestinations from "@/components/FeaturedDestinations";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import MapSection from "@/components/MapSection";
+import Navbar from "@/components/Navbar";
 
 export default function ContactUs() {
   return (

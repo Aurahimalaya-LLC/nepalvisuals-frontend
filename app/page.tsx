@@ -1,14 +1,14 @@
-import Activities from "@/components/components/Activities";
-import FAQSection from "@/components/components/FAQSection";
-import FeaturedDestinations from "@/components/components/FeaturedDestinations";
-import Hero from "@/components/components/Hero";
-import Navbar from "@/components/components/Navbar";
-import Newsletter from "@/components/components/NewsLetter";
-import PopularPackages from "@/components/components/PopularPackages";
-import StoriesFromTrail from "@/components/components/StoriesFromTrail";
-import Sustainability from "@/components/components/Sustainability";
-import TrustedPartners from "@/components/components/TrustedPartners";
-import UpcomingDepartures from "@/components/components/UpcomingDepartures";
+import Activities from "@/components/Activities";
+import FAQSection from "@/components/FAQSection";
+import FeaturedDestinations from "@/components/FeaturedDestinations";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
+import Newsletter from "@/components/NewsLetter";
+import PopularPackages from "@/components/PopularPackages";
+import StoriesFromTrail from "@/components/StoriesFromTrail";
+import Sustainability from "@/components/Sustainability";
+import TrustedPartners from "@/components/TrustedPartners";
+import UpcomingDepartures from "@/components/UpcomingDepartures";
 
 export default function Home() {
   return (

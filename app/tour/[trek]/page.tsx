@@ -1,17 +1,17 @@
 "use client";
 
-import Overview from "@/components/components/Overview";
-import RouteMap from "@/components/components/RouteMap";
-import Itinerary from "@/components/components/Itinerary";
-import AvailableDates from "@/components/components/AvailableDates";
-import PackingList from "@/components/components/Packing";
-import FAQSection from "@/components/components/FAQSection";
-import Gallery from "@/components/components/Gallery";
-import Reviews from "@/components/components/Reviews";
-import SimilarAdventures from "@/components/components/SimilarAdventure";
-import Navbar from "@/components/components/Navbar";
-import TrekHero from "@/components/components/TrekHero";
-import BookingWidget from "@/components/components/BookingWidget";
+import Overview from "@/components/Overview";
+import RouteMap from "@/components/RouteMap";
+import Itinerary from "@/components/Itinerary";
+import AvailableDates from "@/components/AvailableDates";
+import PackingList from "@/components/Packing";
+import FAQSection from "@/components/FAQSection";
+import Gallery from "@/components/Gallery";
+import Reviews from "@/components/Reviews";
+import SimilarAdventures from "@/components/SimilarAdventure";
+import Navbar from "@/components/Navbar";
+import TrekHero from "@/components/TrekHero";
+import BookingWidget from "@/components/BookingWidget";
 
 export default function Regions() {
   return (

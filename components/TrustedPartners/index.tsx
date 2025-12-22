@@ -19,13 +19,17 @@ const TrustedPartners = () => {
           </span>
         </h2>
         <p className="text-lg text-text-secondary max-w-2xl mx-auto leading-relaxed">
-          We collaborate with the best in the industry to ensure top-notch services for our trekkers.
+          We collaborate with the best in the industry to ensure top-notch
+          services for our trekkers.
         </p>
       </div>
 
       <div className="flex flex-wrap justify-center items-center gap-8">
         {partners.map((partner, index) => (
-          <div key={index} className="w-32 h-32 flex justify-center items-center">
+          <div
+            key={index}
+            className="w-32 h-32 flex justify-center items-center"
+          >
             <img
               src={partner.logo}
               alt={partner.name}

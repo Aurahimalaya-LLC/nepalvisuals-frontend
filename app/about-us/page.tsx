@@ -1,12 +1,12 @@
-import Sustainability from "@/components/components/Sustainability";
-import StoriesFromTrail from "@/components/components/StoriesFromTrail";
-import TrustedPartners from "@/components/components/TrustedPartners";
-import MissionValues from "@/components/components/MissionValues";
-import RealStories from "@/components/components/RealStories";
-import TeamMembers from "@/components/components/TeamMembers";
-import Newsletter from "@/components/components/NewsLetter";
-import Hero from "@/components/components/Hero";
-import Navbar from "@/components/components/Navbar";
+import Sustainability from "@/components/Sustainability";
+import StoriesFromTrail from "@/components/StoriesFromTrail";
+import TrustedPartners from "@/components/TrustedPartners";
+import MissionValues from "@/components/MissionValues";
+import RealStories from "@/components/RealStories";
+import TeamMembers from "@/components/TeamMembers";
+import Newsletter from "@/components/NewsLetter";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
 
 export default function AboutUs() {
   return (
